@@ -17,6 +17,6 @@ paste = "1.0.14"
 pathdiff = { version = "0.2.1", features = ["camino"] }
 rinja = "0.3.5"
 serde = { version = "1", features = ["derive"] }
-uniffi = "=0.29.0"
+uniffi = { git = "https://github.com/yukibtc/uniffi-rs", rev = "a6c2f678b43c15df6969ba5f50aa76523e3f3f79", features = ["tokio"] }
 uniffi_bindgen = "=0.29.0"
 uniffi_meta = "=0.29.0"
